@@ -3,15 +3,19 @@
 #include <iostream>
 
 int main() {
-  // Create an instance of the flight dynamics model
   JSBSim::FGFDMExec exec;
-  exec.SetRootDir(SGPath("third_party/jsbsim"));
+  exec.SetRootDir(SGPath("third_party/jsbsim/"));
+  exec.SetAircraftPath(SGPath("aircraft/"));
+  exec.SetEnginePath(SGPath("engine/"));
+  exec.LoadModel("F450");
 
-  exec.LoadScript(SGPath("scripts/c1723.xml"));
-  auto result = exec.Run();
-  while (result) {        // cyclic execution
-    result = exec.Run();  // execute JSBSim
-  }
-
+  //  int num_steps = 100;
+  //  exec.RunIC()
+  //  for (int i = 0; i < num_steps; ++i) {
+  //    exec.Run();
+  //    double time = exec.GetSimTime();
+  //    double altitude = exec.GetPropertyValue("position/h-sl-meters");
+  //    std::cout << time << ", " << altitude << std::endl;
+  //  }
   return 0;
 }
