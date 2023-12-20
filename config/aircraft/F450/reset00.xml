@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<initialize name="Raleigh NC">
+<vt unit="M/S">         0.0       </vt>
+<latitude type="geodetic" unit="DEG">   35.763753 </latitude>
+<longitude unit="DEG"> -78.728482 </longitude>
+<altitude unit="FT">     0       </altitude>
+<elevation unit="FT">    381       </elevation>
+<psi unit="DEG">        90.0      </psi>
+</initialize>
