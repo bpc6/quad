@@ -1,5 +1,4 @@
 cmake_minimum_required(VERSION 3.27)
-set(BUILD_SHARED_LIBS ON)
 project(quad)
 
 set(CMAKE_CXX_STANDARD 17)
