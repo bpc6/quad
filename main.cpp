@@ -6,7 +6,7 @@
 
 int main() {
   JSBSim::FGFDMExec exec;
-  exec.SetRootDir(SGPath("third_party/jsbsim/"));
+  exec.SetRootDir(SGPath("config/"));
   exec.SetAircraftPath(SGPath("aircraft/"));
   exec.SetEnginePath(SGPath("engine/"));
   exec.SetSystemsPath(SGPath("systems/"));
