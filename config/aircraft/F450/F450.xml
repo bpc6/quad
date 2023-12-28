@@ -14,7 +14,7 @@
 
     <system file="Effectors.xml"/>
 
-  <flight_control file="FlightControl.xml"/>
+<!--    <flight_control file="FlightControl.xml"/>-->
 
     <system file="SensorImu.xml"/>
     <system file="SensorBaro.xml"/>

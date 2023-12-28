@@ -1,15 +1,15 @@
-<output name="data.csv" type="CSV" rate="20">
+<output name="data/position.csv" type="CSV" rate="10">
     <simulation>       OFF </simulation>
     <atmosphere>       OFF </atmosphere>
     <massprops>        OFF </massprops>
     <aerosurfaces>     OFF </aerosurfaces>
-    <rates>            ON </rates>
-    <velocities>       ON </velocities>
+    <rates>            OFF </rates>
+    <velocities>       OFF </velocities>
     <forces>           OFF </forces>
     <moments>          OFF </moments>
     <position>         ON </position>
     <coefficients>     OFF </coefficients>
     <ground_reactions> OFF </ground_reactions>
-    <fcs>              OFF </fcs>
+    <fcs>              ON </fcs>
     <propulsion>       OFF </propulsion>
 </output>
